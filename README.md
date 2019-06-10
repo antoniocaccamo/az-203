@@ -13,6 +13,21 @@ Here are some official Microsoft websites that you really should bookmark when s
 
 ## Virtual Machines
 
+## Azure Batch Services
+
+## Containerized Solutions
+
+## Azure App Service
+
+## Mobile Apps
+
+## API App
+
+## Function App
+
+## Azure Storage Accounts
+
+
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTAyOTA4NzQxXX0=
+eyJoaXN0b3J5IjpbLTE2NDY0ODQ5MzRdfQ==
 -->
