@@ -8,16 +8,8 @@ Here are some official Microsoft websites that you really should bookmark when s
 - [Azure Citadel - Labs and Workshops](https://azurecitadel.github.io/labs/)
 - [Azure Hands on Labs](https://www.microsoft.com/handsonlabs/SelfPacedLabs)
 - [Official Microsoft Azure YouTube Channel](https://www.youtube.com/user/windowsazure)
-
-  
-
 - [Official Microsoft Developer YouTube Channel](https://www.youtube.com/channel/UCsMica-v34Irf9KVTh6xx-g)
-
-  
-
-Azure REST API Browser
-
-[https://docs.microsoft.com/en-us/rest/api/?view=Azure](https://docs.microsoft.com/en-us/rest/api/?view=Azure)
+- [Azure REST API Browser](https://docs.microsoft.com/en-us/rest/api/?view=Azure)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE0MDUwMTk1OF19
+eyJoaXN0b3J5IjpbLTExNjY0Mjc0NTZdfQ==
 -->
