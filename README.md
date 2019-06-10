@@ -2,17 +2,9 @@
 az-203 course notes and projects
 
 ## Resources
-Here are some official Microsoft websites that you really should bookmark when studying for the AZ-203 exam:
-
-  
-
-Azure Code Samples:
-
-[https://azure.microsoft.com/en-us/resources/samples/?sort=0](https://azure.microsoft.com/en-us/resources/samples/?sort=0)
-
-  
-
-Official Azure Documentation:
+Here are some official Microsoft websites that you really should bookmark when studying for the AZ-203 exam: 
+- [Azure Code Samples](https://azure.microsoft.com/en-us/resources/samples/?sort=0)
+- [Official Azure Documentation]
 
 [https://docs.microsoft.com/en-us/azure/](https://docs.microsoft.com/en-us/azure/)
 
@@ -46,5 +38,5 @@ Azure REST API Browser
 
 [https://docs.microsoft.com/en-us/rest/api/?view=Azure](https://docs.microsoft.com/en-us/rest/api/?view=Azure)
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbNjE2NTEyNzMyXX0=
+eyJoaXN0b3J5IjpbLTEyNDY3NDg0OTNdfQ==
 -->
