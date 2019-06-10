@@ -43,7 +43,9 @@ Here are some official Microsoft websites that you really should bookmark when s
 
 ## Caching and Content Delivery Networks
 
+## Monitoring and Logging
 
+## Consuming Azure Services
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbMTE2ODQ4ODg4XX0=
+eyJoaXN0b3J5IjpbNTA1NTUyNDIwXX0=
 -->
