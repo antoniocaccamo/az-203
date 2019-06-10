@@ -27,7 +27,23 @@ Here are some official Microsoft websites that you really should bookmark when s
 
 ## Azure Storage Accounts
 
+## CosmosDB
+
+## SQL Database
+
+## Blob Containers
+
+## Azure Authentication
+
+## Azure Access Control
+
+## Secure Data
+
+## Scaling Apps and Services
+
+## Caching and Content Delivery Networks
+
 
 <!--stackedit_data:
-eyJoaXN0b3J5IjpbLTE2NDY0ODQ5MzRdfQ==
+eyJoaXN0b3J5IjpbMTE2ODQ4ODg4XX0=
 -->
