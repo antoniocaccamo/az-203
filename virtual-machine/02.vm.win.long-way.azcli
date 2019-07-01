@@ -1,0 +1,48 @@
+
+# 
+az login
+
+# 1. Same resource group
+
+# 2. Same vnet and subnet       
+
+# 3. Create public ip
+az network public-ip create                     \
+    --resource-group "ps-az-203-rg"             \
+    --name           "ps-az-203-win-1-pip-1"      
+
+# 4. Create network security group
+az network nsg create                          \
+    --resource-group "ps-az-203-rg"             \
+    --name           "ps-az-203-win-nsg-1"  
+
+# 5. Create a network interface
+az network nic create                                    \
+    --resource-group          "ps-az-203-rg"             \
+    --name                    "ps-az-203-win-1-nic-1"    \
+    --vnet-name               "ps-az-203-vnet"           \
+    --subnet                  "ps-az-203-vnet-sub-1"     \
+    --network-security-group  "ps-az-203-win-nsg-1"      \
+    --public-ip-address       "ps-az-203-win-1-pip-1"
+
+az network nic list -o table
+
+# 6. Create the vm
+az vm create \
+    --resource-group          "ps-az-203-rg"             \
+    --location                "westeurope"               \
+    --name                    "ps-az-203-win-1"          \    
+    --image                   "win2016datacenter"        \
+    --nics                    "ps-az-203-win-1-nic-1"    \
+    --admin-username          "demoadmin"                \
+    --admin-username          "Passw00000rd!"
+
+# 7. Open SSH port 
+az vm open-port                                         \
+    --resource-group          "ps-az-203-rg"            \    
+    --name                    "ps-az-203-win-1"         \
+    --port                    "3389"
+
+# 8. Grab ip address
+az vm list-ip-address --name "ps-az-203-win-1"  -o table
+

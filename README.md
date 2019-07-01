@@ -12,7 +12,8 @@ Here are some official Microsoft websites that you really should bookmark when s
 - [Azure REST API Browser](https://docs.microsoft.com/en-us/rest/api/?view=Azure)
 
 ## Virtual Machines
-1. [VM Linux](01.vm.linux.md)
+1. [VM Linux](virtual-machine/01.vm.linux.md)
+2. [VM Windows](virtual-machine/02.vm.win.md)
 
 ## Azure Batch Services
 

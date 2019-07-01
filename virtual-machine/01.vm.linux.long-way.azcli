@@ -27,7 +27,7 @@ az network public-ip create                     \
 # 4. Create network security group
 az network nsg create                          \
     --resource-group "ps-az-203-rg"             \
-    --name           "ps-az-203-linux-1-nsg-1"  
+    --name           "ps-az-203-linux-nsg-1"  
 
 # 5. Create a network interface
 az network nic create                                    \
@@ -35,7 +35,7 @@ az network nic create                                    \
     --name                    "ps-az-203-linux-1-nic-1"  \
     --vnet-name               "ps-az-203-vnet"           \
     --subnet                  "ps-az-203-vnet-sub-1"     \
-    --network-security-group  "ps-az-203-linux-1-nsg-1"  \
+    --network-security-group  "ps-az-203-linux-nsg-1"    \
     --public-ip-address       "ps-az-203-linux-1-pip-1"
 
 az network nic list -o table
